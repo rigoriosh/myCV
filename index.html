@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" href="./stylesCv.css">    
+    <link rel="stylesheet" href="./stylesCv.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>   
     <title>CV Rigoberto Rios</title>
 </head>
 <body>
@@ -35,39 +36,41 @@
                     <button class="btn btn-outline-info"><a href="./pdf/CV_RigobertoRios.pdf" target="_blank">Descargar CV</a></button>
                     <hr>
                     <div class="row subElectIng movil-nav">
-                        <nav class="navbar navbar-expand-lg navbar-light bg-light nav-cv">
+                        <nav class="navbar navbar-expand-lg navbar-light  nav-cv">
                             <div class="container-fluid">
-                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <button class="navbar-toggler hamburger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon"></span>
                                   </button>
-                                 
-                                    <a class="navbar-brand btnRigo nav-item" onclick="descripcion()">
-                                        <button type="button" class="btn btn-outline-primary btn-sm">Perfíl</button>
-                                    </a>   
-                               
-                                    <a class="navbar-brand btnRigo nav-item" onclick="experiencia()">
-                                        <button type="button" class="btn btn-outline-primary btn-sm">Experiencia</button>
-                                    </a>
                                 </div>                         
-                              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">                                    
+                              <div class="collapse navbar-collapse animate__animated animate__pulse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0 mt-2"> 
+                                    <li class="nav-item">
+                                         <a class="navbar-brand btnRigo nav-item" onclick="descripcion()">
+                                            <button type="button" class="btn btn-primary btn-sm">Perfíl</button>
+                                        </a>                                      
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="navbar-brand btnRigo nav-item" onclick="experiencia()">
+                                            <button type="button" class="btn btn-primary btn-sm">Experiencia</button>
+                                        </a>
+                                    </li>
                                   <li class="nav-item">
                                     <a class="navbar-brand btnRigo" onclick="educacion()">
-                                        <button type="button" class="btn btn-outline-primary btn-sm">Educación</button></a>
+                                        <button type="button" class="btn btn-primary btn-sm">Educación</button></a>
                                   </li>
                                   <li class="nav-item">
                                     <a class="navbar-brand btnRigo" onclick="skills()">
-                                        <button type="button" class="btn btn-outline-primary btn-sm">Actualizaciones</button>
+                                        <button type="button" class="btn btn-primary btn-sm">Actualizaciones</button>
                                     </a>
                                   </li>
                                   <li class="nav-item">
                                     <a class="navbar-brand btnRigo" onclick="repositorios()">
-                                        <button type="button" class="btn btn-outline-primary btn-sm">Repositorios</button>
+                                        <button type="button" class="btn btn-primary btn-sm">Repositorios</button>
                                     </a>
                                   </li>
                                   <li class="nav-item">
                                     <a class="navbar-brand btnRigo" onclick="hobbies()">
-                                        <button type="button" class="btn btn-outline-primary btn-sm">Hobbies</button>
+                                        <button type="button" class="btn btn-primary btn-sm">Hobbies</button>
                                     </a>
                                   </li>
                                   
@@ -89,7 +92,7 @@
                 </div>
             </div>
         </div>
-        <div id="DescripcionPersonal" class="container">
+        <div id="DescripcionPersonal" class="container animate__animated animate__tada">
             <h1>Descripción Personal</h1>
             <ul>
                 <li>

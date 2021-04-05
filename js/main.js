@@ -86,7 +86,7 @@ const ocultarDatosBasicos = (hideBasicData) => {
 
 setTimeout(() => {
     document.querySelector('.navbar-toggler').click();
-}, 5);
+}, 6);
 
 
 

@@ -25,6 +25,11 @@ ul {
     text-decoration: none;
   }
 
+  .hamburger{
+    background-color: coral;
+    border-radius: 50%;
+  }
+
   @media (max-width: 490px) {    
     
     .nav-cv {
@@ -33,7 +38,7 @@ ul {
     .movil-nav{
       position: fixed;
       top: -20px;
-      width: 100%;
+      /* width: 100%; */
     }
 
     #Titulo{
