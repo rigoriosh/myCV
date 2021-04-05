@@ -1,6 +1,6 @@
 
 prender = (IdDiv) => {
-    let divs = [ 'DescripcionPersonal', 'ExperienciasLaborales', 'Skills', 'Educacion', 'Hobbies']            
+    let divs = [ 'DescripcionPersonal', 'ExperienciasLaborales', 'Skills', 'Educacion', 'Hobbies', 'repositories']            
     divs.forEach(div => {
         if(div !== IdDiv) document.querySelector(`#${div}`).style.display = 'none'
     });
@@ -27,6 +27,13 @@ educacion = () => {
 hobbies = () => {    
     prender('Hobbies');
 }
+repositorios = () => {    
+    prender('repositories');
+}
 
 prender('DescripcionPersonal');
 document.getElementById('spiner').style.display = 'none';
+
+if (window.matchMedia("(max-width: 600px)").matches) {
+    console.log(33333)
+}

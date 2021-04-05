@@ -13,3 +13,33 @@ ul {
   .btnRigo{
     cursor: pointer;
   }
+
+  .nav-cv{
+    border-radius: 10px;
+  }
+
+  @media (max-width: 600px) {    
+    
+    .nav-cv {
+      border-radius: 0px;
+    }
+    .movil-nav{
+      position: absolute;
+      top: -20px;
+      width: 100%;
+    }
+
+    #Titulo{
+      margin-top: 61px;
+    }
+
+    .name{
+      font-size: 20px;
+    }
+
+    .subElectIng {
+      margin-top: 20px;
+    }
+  }
+
+
