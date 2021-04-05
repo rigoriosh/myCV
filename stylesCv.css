@@ -28,7 +28,34 @@ ul {
   .hamburger{
     background-color: coral;
     border-radius: 50%;
+    padding: 0.5rem;
+    border: 0;
+	transition: all 40ms linear;
+	/* margin-top: 10px; */
+	margin-bottom: 10px;
+	/* margin-left: 2px; */
+	margin-right: 2px;
+    /* box-shadow: 0 0.2em coral, 0 0.4em rgb(0 0 0 / 27%); */
   }
+  /* .hamburger:active:focus,
+  .hamburger:focus:hover,
+  .hamburger:focus{
+    background: #e5dc15;
+    color: #0e79b2;
+	outline: medium none;
+  } */
+
+  .hamburger.btn-success {
+    box-shadow: 0 0 0 1px #e45d35 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #c5320d, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+    background-color: coral;
+  }
+  
+  .hamburger.btn-success:active,
+  .hamburger.btn-success.active {
+    box-shadow: 0 0 0 1px #df3910 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+    background-color: #d75939;
+  }
+  
 
   @media (max-width: 490px) {    
     
