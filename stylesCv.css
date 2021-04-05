@@ -18,13 +18,17 @@ ul {
     border-radius: 10px;
   }
 
-  @media (max-width: 600px) {    
+  a{
+    text-decoration: none;
+  }
+
+  @media (max-width: 490px) {    
     
     .nav-cv {
       border-radius: 0px;
     }
     .movil-nav{
-      position: absolute;
+      position: fixed;
       top: -20px;
       width: 100%;
     }
@@ -39,6 +43,14 @@ ul {
 
     .subElectIng {
       margin-top: 20px;
+    }
+
+    .navbar-nav{
+      text-align: center;
+    }
+
+    .nav-item{
+      margin-bottom: 3px;
     }
   }
 

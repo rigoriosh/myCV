@@ -11,36 +11,39 @@
     <div class="container-sm mt-3 mb-5">
         <div id="Titulo">
             <div class="row">
-                <div class="col align-self-center">
+                <div id="foto" class="col align-self-center">
                     <img src="./assets/images/Rigo.jpg" alt="" class="rounded-circle">
                 </div>
                 <div class="col align-self-center">
                     <div class="row"><h1 class="name">RIGOBERTO</h1></div>
                     <div class="row"><h1 class="name">RIOS HUESO</h1></div>
                     <div class="row subElectIng"><h3>INGENIERO ELECTRÓNICO</h3></div>
+                    <button class="btn btn-outline-info"><a href="./pdf/CV_RigobertoRios.pdf" target="_blank">Descargar CV</a></button>
+                    <hr>
                     <div class="row subElectIng movil-nav">
                         <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav-cv">
                             <div class="container-fluid">
-                              <a class="navbar-brand btnRigo" onclick="descripcion()">
-                                <button type="button" class="btn btn-outline-primary btn-sm">Descripción</button>
-                            </a>
-                              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                              </button>
-                              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                  <li class="nav-item">
-                                    <a class="navbar-brand btnRigo" onclick="experiencia()">
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                  </button>
+                                 
+                                    <a class="navbar-brand btnRigo nav-item" onclick="descripcion()">
+                                        <button type="button" class="btn btn-outline-primary btn-sm">Perfíl</button>
+                                    </a>   
+                               
+                                    <a class="navbar-brand btnRigo nav-item" onclick="experiencia()">
                                         <button type="button" class="btn btn-outline-primary btn-sm">Experiencia</button>
-                                        </a>
-                                  </li>
+                                    </a>
+                                </div>                         
+                              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">                                    
                                   <li class="nav-item">
                                     <a class="navbar-brand btnRigo" onclick="educacion()">
                                         <button type="button" class="btn btn-outline-primary btn-sm">Educación</button></a>
                                   </li>
                                   <li class="nav-item">
                                     <a class="navbar-brand btnRigo" onclick="skills()">
-                                        <button type="button" class="btn btn-outline-primary btn-sm">Skills</button>
+                                        <button type="button" class="btn btn-outline-primary btn-sm">Actualizaciones</button>
                                     </a>
                                   </li>
                                   <li class="nav-item">
@@ -197,39 +200,9 @@
             </ul>
         </div>        
         <div id="Skills">
-            <h1>Skills</h1>
-            <h4>He realizado los siguientes cursos:</h4>
-            <ul>
-                <li>
-                    <hr>
-                </li>
-                <li>
-                    <h4><a href="https://www.udemy.com/course/node-de-cero-a-experto/" target="_blank">Node js <span class="badge bg-dark rounded-pill">actualmente</span></a></h4>                                        
-                </li>
-                <li>
-                    <hr>
-                </li>
-                <li>
-                    <h4>
-                        <a href="https://www.udemy.com/course/angular-2-fernando-herrera/" target="_blank">Angular 11 <span class="badge bg-dark rounded-pill">actualmente</span></a></h4>                
-                </li>            
-                <li>
-                    <hr>
-                </li>
-                <li>
-                    <h4>
-                        <a href="https://www.udemy.com/course/react-cero-experto/" target="_blank">React <span class="badge bg-dark rounded-pill">actualmente</span>
-                        </a>
-                    </h4>
-                </li> 
-                <li>
-                    <h4>
-                        <a href="https://www.udemy.com/share/101XBmAEoTcllWR3Q=/" target="_blank">Flutter</a>
-                    </h4>
-                </li>           
-                <li>
-                    <hr>
-                </li>
+            <h1>Actualizaciones</h1>            
+            <ul>                
+                
                 <li>
                     <h4><a href="./pdf/diploma-python.pdf" target="_blank">Python</a></h4>
                 </li>            
@@ -269,7 +242,33 @@
                 <li>
                     <h4><a href="./pdf/CartografiaDigAmbSIG0617.pdf" target="_blank">Cartografía Digital</a></h4>
                 </li>  
-                        
+                <li>
+                    <hr>
+                </li>
+                <li>
+                    <h4><a href="https://www.udemy.com/course/node-de-cero-a-experto/" target="_blank">Node js <span class="badge bg-dark rounded-pill">actualmente</span></a></h4>                                        
+                </li>
+                <li>
+                    <hr>
+                </li>
+                <li>
+                    <h4>
+                        <a href="https://www.udemy.com/course/angular-2-fernando-herrera/" target="_blank">Angular 11 <span class="badge bg-dark rounded-pill">actualmente</span></a></h4>                
+                </li>            
+                <li>
+                    <hr>
+                </li>
+                <li>
+                    <h4>
+                        <a href="https://www.udemy.com/course/react-cero-experto/" target="_blank">React <span class="badge bg-dark rounded-pill">actualmente</span>
+                        </a>
+                    </h4>
+                </li> 
+                <li>
+                    <h4>
+                        <a href="https://www.udemy.com/share/101XBmAEoTcllWR3Q=/" target="_blank">Flutter<span class="badge bg-dark rounded-pill">actualmente</span></a>
+                    </h4>
+                </li>       
             </ul>                
         </div> 
         <div id="repositories">

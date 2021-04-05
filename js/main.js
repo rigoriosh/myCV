@@ -1,4 +1,13 @@
 
+const menuToggle = document.getElementById('navbarSupportedContent')
+const bsCollapse = new bootstrap.Collapse(menuToggle)
+const navLinks = document.querySelectorAll('.nav-item')
+
+
+
+
+let vista = 'DescripcionPersonal'
+
 prender = (IdDiv) => {
     let divs = [ 'DescripcionPersonal', 'ExperienciasLaborales', 'Skills', 'Educacion', 'Hobbies', 'repositories']            
     divs.forEach(div => {
@@ -11,29 +20,74 @@ prender = (IdDiv) => {
     }, 500);    
 }
 
-descripcion = () => {    
-    prender('DescripcionPersonal');
+descripcion = () => {  
+     
+    vista = 'DescripcionPersonal';
+    prender(vista);
+    checkScreen();
 }
 
 experiencia =  () => {    
-    prender('ExperienciasLaborales');
+    vista = 'ExperienciasLaborales';
+    prender(vista);    
+    checkScreen();
 }
 skills = () => {    
-    prender('Skills');
+    vista = 'Skills';
+    prender(vista);
+    checkScreen();
 }
 educacion = () => {    
-    prender('Educacion');
+    vista = 'Educacion';
+    prender(vista);
+    checkScreen();
 }
 hobbies = () => {    
-    prender('Hobbies');
+    vista = 'Hobbies';
+    prender(vista);
+    checkScreen();
 }
 repositorios = () => {    
-    prender('repositories');
+    vista = 'repositories';
+    prender(vista);
+    checkScreen();
 }
 
-prender('DescripcionPersonal');
+prender(vista);
 document.getElementById('spiner').style.display = 'none';
 
-if (window.matchMedia("(max-width: 600px)").matches) {
-    console.log(33333)
+
+
+
+const checkScreen = () => {
+     
+    if (window.matchMedia("(max-width: 600px)").matches) {
+        
+        (vista !== 'DescripcionPersonal')
+        ? ocultarDatosBasicos(true)
+        : ocultarDatosBasicos(false)
+        const navLinks = document.querySelectorAll('.nav-item')       
+        navLinks.forEach(l => {            
+            l.addEventListener('click', () => { bsCollapse.toggle() })
+        })
+        
+    }
 }
+
+const ocultarDatosBasicos = (hideBasicData) => {
+    if (hideBasicData) {
+        document.getElementById('foto').style.display = 'none';
+        document.querySelector('.datos').style.display = 'none';
+    } else {
+        document.getElementById('foto').style.display = 'block';
+        document.querySelector('.datos').style.display = 'block';
+    }
+}
+
+setTimeout(() => {
+    document.querySelector('.navbar-toggler').click();
+}, 5);
+
+
+
+
