@@ -55,6 +55,10 @@ ul {
     box-shadow: 0 0 0 1px #df3910 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
     background-color: #d75939;
   }
+
+  .btn-rigo{
+    display: none;
+  }
   
 
   @media (max-width: 490px) {    
