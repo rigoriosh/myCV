@@ -48,6 +48,11 @@ ul {
   .hamburger.btn-success {
     box-shadow: 0 0 0 1px #e45d35 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #c5320d, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
     background-color: coral;
+    box-shadow: 6px 5px 24px #666666;
+  }
+
+  .hamburger:hover{
+    background-color: #df3910;
   }
   
   .hamburger.btn-success:active,
