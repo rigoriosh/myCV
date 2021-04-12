@@ -86,10 +86,12 @@ const ocultarDatosBasicos = (hideBasicData) => {
 
 setTimeout(() => {
     document.querySelector('.navbar-toggler').click();
-    const btnDescargarCV = document.getElementsByClassName('btn-rigo');
-    btnDescargarCV.style.display = 'block'
+    
 }, 6);
 
-
+setTimeout(() => {
+    const btnDescargarCV = document.getElementById('btn-rigo');
+    btnDescargarCV.style.display = 'block'
+}, 2000);
 
 
