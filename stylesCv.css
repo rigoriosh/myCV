@@ -61,6 +61,14 @@ ul {
     background-color: #d75939;
   }
 
+  .imagenes{
+    width: 50px;
+  }
+
+  .link{
+    border-bottom: 1px solid;
+  }
+
   .btn-rigo{
     display: none;
   }

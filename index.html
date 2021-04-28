@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" href="./stylesCv.css"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>  
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>       
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="./stylesCv.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <title>CV Rigoberto Rios</title>
 </head>
+
 <body>
     <div class="container mt-3 mb-5">
         <header class="me-3" id="Titulo">
@@ -19,21 +22,28 @@
                 <div class="col align-self-center">
                     <div class="row">
                         <div class="col">
-                            <div class="row"><h2 class="name">RIGOBERTO</h2></div>
-                            <div class="row"><h2 class="name">RIOS HUESO</h2></div>
-                            <div class="row subElectIng"><h4>INGENIERO ELECTRÓNICO</h4></div>
+                            <div class="row">
+                                <h2 class="name">RIGOBERTO</h2>
+                            </div>
+                            <div class="row">
+                                <h2 class="name">RIOS HUESO</h2>
+                            </div>
+                            <div class="row subElectIng">
+                                <h4>INGENIERO ELECTRÓNICO</h4>
+                            </div>
                         </div>
                         <div class="col datos align-self-center">
                             <ul>
                                 <li>Móvil: 3106777777</li>
                                 <li>CC: 18129164</li>
                                 <li>MP: CN206-68387</li>
-                                <li>Bogotá - Colombia</li>                        
+                                <li>Bogotá - Colombia</li>
                                 <li>E-mail: rigoriosh@gmail.com</li>
-                                <li><i class="fas fa-link"></i><a href="https://github.com/rigoriosh" target="_blank" class="link-dark">  https://github.com/rigoriosh</a></li>                        
+                                <li><i class="fas fa-link"></i><a href="https://github.com/rigoriosh" target="_blank"
+                                        class="link-dark"> https://github.com/rigoriosh</a></li>
                             </ul>
                         </div>
-                    </div>                    
+                    </div>
                     <button id="btn-rigo" class="btn btn-outline-info animate__animated animate__flash btn-rigo">
                         <a href="./pdf/CV_RigobertoRios.pdf" target="_blank">Descargar CV</a>
                     </button>
@@ -41,46 +51,51 @@
                     <div class="row subElectIng movil-nav ">
                         <nav class="navbar navbar-expand-lg navbar-light  nav-cv">
                             <div class="container-fluid ">
-                                <button class="navbar-toggler hamburger animate__animated animate__backInUp btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <button class="navbar-toggler hamburger animate__animated animate__backInUp btn-success"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                                    aria-controls="navbarSupportedContent" aria-expanded="false"
+                                    aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
-                            </div>                         
-                            <div class="collapse navbar-collapse animate__animated animate__pulse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mt-2"> 
-                                <li class="nav-item">
+                            </div>
+                            <div class="collapse navbar-collapse animate__animated animate__pulse"
+                                id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0 mt-2">
+                                    <li class="nav-item">
                                         <a class="navbar-brand btnRigo nav-item" onclick="descripcion()">
-                                        <button type="button" class="btn btn-primary btn-sm">Perfíl</button>
-                                    </a>                                      
-                                </li>
-                                <li class="nav-item">
-                                    <a class="navbar-brand btnRigo nav-item" onclick="experiencia()">
-                                        <button type="button" class="btn btn-primary btn-sm">Experiencia</button>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                <a class="navbar-brand btnRigo" onclick="educacion()">
-                                    <button type="button" class="btn btn-primary btn-sm">Educación</button></a>
-                                </li>
-                                <li class="nav-item">
-                                <a class="navbar-brand btnRigo" onclick="skills()">
-                                    <button type="button" class="btn btn-primary btn-sm">Actualizaciones</button>
-                                </a>
-                                </li>
-                                <li class="nav-item">
-                                <a class="navbar-brand btnRigo" onclick="repositorios()">
-                                    <button type="button" class="btn btn-primary btn-sm">Repositorios</button>
-                                </a>
-                                </li>
-                                <li class="nav-item">
-                                <a class="navbar-brand btnRigo" onclick="hobbies()">
-                                    <button type="button" class="btn btn-primary btn-sm">Hobbies</button>
-                                </a>
-                                </li>
-                                
-                                
-                            </ul>
-                            
-                            </div>                           
+                                            <button type="button" class="btn btn-primary btn-sm">Perfíl</button>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="navbar-brand btnRigo nav-item" onclick="experiencia()">
+                                            <button type="button" class="btn btn-primary btn-sm">Experiencia</button>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="navbar-brand btnRigo" onclick="educacion()">
+                                            <button type="button" class="btn btn-primary btn-sm">Educación</button></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="navbar-brand btnRigo" onclick="skills()">
+                                            <button type="button"
+                                                class="btn btn-primary btn-sm">Actualizaciones</button>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="navbar-brand btnRigo" onclick="repositorios()">
+                                            <button type="button" class="btn btn-primary btn-sm">Repositorios</button>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="navbar-brand btnRigo" onclick="hobbies()">
+                                            <button type="button" class="btn btn-primary btn-sm">Hobbies</button>
+                                        </a>
+                                    </li>
+
+
+                                </ul>
+
+                            </div>
                         </nav>
                     </div>
                 </div>
@@ -97,43 +112,54 @@
             <section id="DescripcionPersonal" class="container animate__animated animate__tada">
                 <h1>Descripción Personal</h1>
                 <ul>
-                    <li><hr></li>
                     <li>
-                        <h6>Me considero una persona facil de tratar, proactiva, colaboradora, responsable y comprometida</h6>
+                        <hr>
+                    </li>
+                    <li>
+                        <h6>Me considero una persona facil de tratar, proactiva, colaboradora, responsable y
+                            comprometida</h6>
                     </li>
                     <li>
                         <hr>
                     </li>
                     <li>
                         <h6>
-                            En lo laboral tengo 5 años (2016 a 2020) de experiencia como desarrollador de software en el Instituto Geográfico Agustín Codazzi,
-                            desarrollando aplicaciones web para sistemas de información geográfica (visores geográficos) y 
-                            aplicaciones PWA's. En donde adquirí experiencia es las siguientes tecnologías: 
+                            En lo laboral tengo 5 años (2016 a 2020) de experiencia como desarrollador de software en el
+                            Instituto Geográfico Agustín Codazzi,
+                            desarrollando aplicaciones web para sistemas de información geográfica (visores geográficos)
+                            y
+                            aplicaciones PWA's. En donde adquirí experiencia es las siguientes tecnologías:
                             <ul>
                                 <li>HTML</li>
                                 <li>CSS</li>
                                 <li>JavaScript</li>
-                                <li><i class="fas fa-link me-2"></i><a href="https://developers.arcgis.com/javascript/3/" target="_blank" class="link-info">API ArcGis for JavaScript 3.2</a></li>
-                                <li><i class="fas fa-link me-2"></i><a href="https://dojotoolkit.org/" target="_blank" class="link-info">Dojo</a></li>                        
+                                <li><i class="fas fa-link me-2"></i><a
+                                        href="https://developers.arcgis.com/javascript/3/" target="_blank"
+                                        class="link-info">API ArcGis for JavaScript 3.2</a></li>
+                                <li><i class="fas fa-link me-2"></i><a href="https://dojotoolkit.org/" target="_blank"
+                                        class="link-info">Dojo</a></li>
                                 <li>Bootstrap</li>
                                 <li>React js</li>
                                 <li>Vue js (Buefy & Vuetify)</li>
                                 <li>Angular 8^</li>
                                 <li>NodeJS - Express</li>
                                 <li>Sockect-io</li>
-                                <li>Consumiendo información a travez de servicios WMS y rest</li>                        
-                                <li>Manejo de base de datos relacionales (MySql) y no relacionales (firebase y mongoDB)</li>
+                                <li>Consumiendo información a travez de servicios WMS y rest</li>
+                                <li>Manejo de base de datos relacionales (MySql) y no relacionales (firebase y mongoDB)
+                                </li>
                                 <li>GitLab</li>
                                 <li>GitHub</li>
-                            </ul> 
+                            </ul>
                         </h6>
                     </li>
                     <li>
                         <hr>
                     </li>
                     <h6>
-                        También 7 años (2013-2020) como instructor en el 
-                        <span> <a href="http://oferta.senasofiaplus.edu.co/sofia-oferta/" target="_blank" class="link-info"> <i class="fas fa-link me-2"></i>SENA</a> </span> (Servicio Nacional de Aprendizaje), 
+                        También 7 años (2013-2020) como instructor en el
+                        <span> <a href="http://oferta.senasofiaplus.edu.co/sofia-oferta/" target="_blank"
+                                class="link-info"> <i class="fas fa-link me-2"></i>SENA</a> </span> (Servicio Nacional
+                        de Aprendizaje),
                         en donde impartí formación en las siguientes áreas:
                         <ul>
                             <li>Técnico en Programación de software.</li>
@@ -141,7 +167,7 @@
                             <li>Internet de las cosas - IoT</li>
                         </ul>
                     </h6>
-                    
+
                 </ul>
             </section>
             <section id="ExperienciasLaborales" class="container container animate__animated animate__fadeInDownBig">
@@ -154,8 +180,10 @@
                         <h4>INSTITUTO GEOGRÁFICO AGUSTIN CODAZZI (IGAC)</h4>
                         <h6>Tels: 57-1-3694087 / 57-1-3694100 Ext. 91305 Bogotá</h6>
                         <h5><span class="badge bg-info rounded-pill">CARGO:</span>Desarrollador de software</h5>
-                        <h5><span class="badge bg-info rounded-pill">FUNCIONES:</span> Desarrollando aplicaciones web y móviles, para sistemas de información geográfica.</h5>
-                        <h5><span class="badge bg-info rounded-pill">TIEMPO LABORADO: 5 años</span> Contratos 2016 - 2020</h5>
+                        <h5><span class="badge bg-info rounded-pill">FUNCIONES:</span> Desarrollando aplicaciones web y
+                            móviles, para sistemas de información geográfica.</h5>
+                        <h5><span class="badge bg-info rounded-pill">TIEMPO LABORADO: 5 años</span> Contratos 2016 -
+                            2020</h5>
                     </li>
                     <li>
                         <hr>
@@ -164,10 +192,12 @@
                         <h4>SERVICIO NACIONAL DE APRENDIZAJE (SENA)</h4>
                         <h6>PBX 5960050 IP 14917 Bogotá</h6>
                         <h5><span class="badge bg-info rounded-pill">CARGO:</span>Instructor Técnico</h5>
-                        <h5><span class="badge bg-info rounded-pill">FUNCIONES:</span> Impartiendo formación titulada en Electrónica Industrial y programación de software.</h5>
-                        <h5><span class="badge bg-info rounded-pill">TIEMPO LABORADO: 7 años</span> Contratos 2013 - 2020</h5>
+                        <h5><span class="badge bg-info rounded-pill">FUNCIONES:</span> Impartiendo formación titulada en
+                            Electrónica Industrial y programación de software.</h5>
+                        <h5><span class="badge bg-info rounded-pill">TIEMPO LABORADO: 7 años</span> Contratos 2013 -
+                            2020</h5>
                     </li>
-                    <li></li>                
+                    <li></li>
                 </ul>
             </section>
             <section id="Educacion" class="container animate__animated animate__fadeInDownBig">
@@ -178,7 +208,8 @@
                     </li>
                     <li>
                         <h4>Ingeniero Electrónico</h4>
-                        <h6><a href="./pdf/Ulibertadores.pdf" target="_blank">Fundación Universitaria Los Libertadores; Graduado 15 de diciembre 2009</a></h6>
+                        <h6><a href="./pdf/Ulibertadores.pdf" target="_blank">Fundación Universitaria Los Libertadores;
+                                Graduado 15 de diciembre 2009</a></h6>
                     </li>
                     <li>
                         <hr>
@@ -186,17 +217,18 @@
                     <li>
                         <h4>Técnico profesional en Mantenimiento Electrónico</h4>
                         <h6><a href="./pdf/Cun.pdf" target="_blank">
-                            Corporación Unificada Nacional de Educación Superior; Graduado, 20/04/2007
-                        </a></h6>
+                                Corporación Unificada Nacional de Educación Superior; Graduado, 20/04/2007
+                            </a></h6>
                     </li>
                     <li>
                         <hr>
                     </li>
                     <li>
                         <h4>Análisis y desarrollo de sistemas de información</h4>
-                        <h6><a href="http://oferta.senasofiaplus.edu.co/sofia-oferta/" target="_blank">Servicio Nacional de aprendizaje SENA, Actualmente</a></h6>
+                        <h6><a href="http://oferta.senasofiaplus.edu.co/sofia-oferta/" target="_blank">Servicio Nacional
+                                de aprendizaje SENA, Actualmente</a></h6>
                     </li>
-                    
+
                     <li>
                         <hr>
                     </li>
@@ -207,106 +239,196 @@
                         </a></h6>
                     </li> -->
                 </ul>
-            </section>        
+            </section>
             <section id="Skills" class="container animate__animated animate__fadeInDownBig">
-                <h1>Actualizaciones</h1>            
-                <ul>                
-                    <li><hr></li>
+                <h1>Actualizaciones</h1>
+                <ul>
+                    <li>
+                        <hr>
+                    </li>
                     <li>
                         <h4>
-                            <a href="./pdf/ReactAplicacionesEnTiempoRealConSocketio.pdf" target="_blank">React: Aplicaciones en tiempo real con Sockets-io (web Sockects)</a>
+                            <i class="fas fa-link me-2"></i>
+                            <a class="link" class="link" href="./pdf/ReactiveX-RxJs.pdf" target="_blank">ReactiveX -
+                                RxJs</a>
+                            <img class="imagenes" src="assets/images/reactivex-logo-png-transparent.png" alt="">
                         </h4>
                     </li>
-                    <li><hr></li>
+                    <li>
+                        <hr>
+                    </li>
                     <li>
                         <h4>
-                            <a href="./pdf/certificadoReact.pdf" target="_blank">React JS</a>
+                            <i class="fas fa-link me-2"></i>
+                            <a class="link" href="./pdf/ReactAplicacionesEnTiempoRealConSocketio.pdf"
+                                target="_blank">React: Aplicaciones en tiempo real con Sockets-io (web Sockects)</a>
                         </h4>
                     </li>
-                    <li><hr></li>
                     <li>
-                        <h4><a href="https://www.udemy.com/course/node-de-cero-a-experto/" target="_blank">Node JS <span class="badge bg-dark rounded-pill">actualmente</span></a></h4>                                        
+                        <hr>
                     </li>
-                    <li><hr></li>
                     <li>
                         <h4>
-                            <a href="https://www.udemy.com/course/angular-2-fernando-herrera/" target="_blank">Angular 11 <span class="badge bg-dark rounded-pill">actualmente</span></a></h4>                
-                    </li>            
-                    <li><hr></li>
-                     
-                    <li>
-                        <h4>
-                            <a href="https://www.udemy.com/share/101XBmAEoTcllWR3Q=/" target="_blank"> Flutter<span class="ms-3 badge bg-dark rounded-pill">actualmente</span></a>
+                            <i class="fas fa-link me-2"></i>
+                            <a class="link" href="./pdf/certificadoReact.pdf" target="_blank">React JS</a>
                         </h4>
-                    </li> 
-                    <li><hr></li>
+                    </li>
                     <li>
-                        <h4><a href="./pdf/diploma-python.pdf" target="_blank">Python</a></h4>
-                    </li>            
-                    <li><hr></li>
+                        <hr>
+                    </li>
                     <li>
-                        <h4><a href="./pdf/diploma-MachineLearningWithPython.pdf" target="_blank">Machine Learning Aplicado con Python</a></h4>
-                    </li>            
-                    <li><hr></li>
+                        <h4>
+                            <i class="fas fa-link me-2"></i>
+                            <a class="link" href="https://www.udemy.com/course/node-de-cero-a-experto/" target="_blank">
+                                Node JS <span class="badge bg-dark rounded-pill">actualmente</span>
+                            </a>
+                            <img class="imagenes" src="assets/images/nodejs.svg" alt="">
+                        </h4>
+                    </li>
                     <li>
-                        <h4><a href="./pdf/diploma-ingenieria-datos.pdf" target="_blank">Ingeniería de datos con Python</a></h4>
-                    </li>            
-                    <li><hr></li>
+                        <hr>
+                    </li>
                     <li>
-                        <h4><a href="./pdf/diploma-ibm-watson.pdf" target="_blank">Inteligencia Artificial con IBM Watson</a></h4>                
-                    </li>            
-                    <li><hr></li>
+                        <h4>
+                            <i class="fas fa-link me-2"></i>
+                            <a class="link" href="https://www.udemy.com/course/angular-2-fernando-herrera/"
+                                target="_blank">Angular 8 <span
+                                    class="badge bg-dark rounded-pill">actualmente</span></a>
+                        </h4>
+                    </li>
                     <li>
-                        <h4><a href="./pdf/diploma-matematicas-ai.pdf" target="_blank">Fundamentos matemáticos para Inteligencia Artificial</a></h4>
-                    </li>            
-                    <li><hr></li>
+                        <hr>
+                    </li>
+
                     <li>
-                        <h4><a href="./pdf/Certificado Taller QGIS_RigobertoRios.pdf" target="_blank">Introducción al desarrollo de plugins para QGIS 3 con Python</a></h4>
-                    </li> 
-                    <li><hr></li> 
+                        <h4>
+                            <i class="fas fa-link me-2"></i><a class="link"
+                                href="https://www.udemy.com/share/101XBmAEoTcllWR3Q=/" target="_blank">
+                                Flutter<span class="ms-3 badge bg-dark rounded-pill">actualmente</span></a>
+                        </h4>
+                    </li>
                     <li>
-                        <h4><a href="./pdf/CartografiaDigAmbSIG0617.pdf" target="_blank">Cartografía Digital</a></h4>
-                    </li>     
-                    <li><hr></li>                                           
-                </ul>                
-            </section> 
+                        <hr>
+                    </li>
+                    <li>
+                        <h4><i class="fas fa-link me-2"></i><a class="link" href="./pdf/diploma-python.pdf"
+                                target="_blank">Python</a></h4>
+                    </li>
+                    <li>
+                        <hr>
+                    </li>
+                    <li>
+                        <h4><i class="fas fa-link me-2"></i><a class="link"
+                                href="./pdf/diploma-MachineLearningWithPython.pdf" target="_blank">Machine
+                                Learning Aplicado con Python</a></h4>
+                    </li>
+                    <li>
+                        <hr>
+                    </li>
+                    <li>
+                        <h4><i class="fas fa-link me-2"></i><a class="link" href="./pdf/diploma-ingenieria-datos.pdf"
+                                target="_blank">Ingeniería de
+                                datos con Python</a></h4>
+                    </li>
+                    <li>
+                        <hr>
+                    </li>
+                    <li>
+                        <h4><i class="fas fa-link me-2"></i><a class="link" href="./pdf/diploma-ibm-watson.pdf"
+                                target="_blank">Inteligencia Artificial
+                                con IBM Watson</a></h4>
+                    </li>
+                    <li>
+                        <hr>
+                    </li>
+                    <li>
+                        <h4><i class="fas fa-link me-2"></i><a class="link" href="./pdf/diploma-matematicas-ai.pdf"
+                                target="_blank">Fundamentos
+                                matemáticos para Inteligencia Artificial</a></h4>
+                    </li>
+                    <li>
+                        <hr>
+                    </li>
+                    <li>
+                        <h4><i class="fas fa-link me-2"></i><a class="link"
+                                href="./pdf/Certificado Taller QGIS_RigobertoRios.pdf" target="_blank">Introducción al
+                                desarrollo de plugins para QGIS 3 con Python</a></h4>
+                    </li>
+                    <li>
+                        <hr>
+                    </li>
+                    <li>
+                        <h4><i class="fas fa-link me-2"></i><a class="link" href="./pdf/CartografiaDigAmbSIG0617.pdf"
+                                target="_blank">Cartografía
+                                Digital</a></h4>
+                    </li>
+                    <li>
+                        <hr>
+                    </li>
+                </ul>
+            </section>
             <section id="repositories" class="container animate__animated animate__fadeInDownBig">
                 <h1>Repositorios</h1>
                 <ul>
-                    <li><hr></li>
+                    <li>
+                        <hr>
+                    </li>
                     <li>
                         <h4>GitHub</h4>
-                        <h6><i class="fas fa-link"></i><a href="https://github.com/rigoriosh" target="_blank">  Trabajos de desarrollo realizados en React, Vue, Angular, Flutter y Nodejs</a></h6>
+                        <h6><i class="fas fa-link"></i><a href="https://github.com/rigoriosh" target="_blank"> Trabajos
+                                de desarrollo realizados en React, Vue, Angular, Flutter y Nodejs</a></h6>
                     </li>
                     <hr>
                     <li>
                         <h4>Calendar App </h4>
-                        <h6><i class="fas fa-link"></i><a href="https://app-calendar-rigo-rios.herokuapp.com/" target="_blank">  Aplicación desarrollada en React js, mongoDB y NodeJs express </a></h6>
-                        <h6><i class="fas fa-link"></i><a href="https://github.com/rigoriosh/Calendar-App" target="_blank">  GitHub </a></h6>
+                        <h6><i class="fas fa-link"></i><a href="https://app-calendar-rigo-rios.herokuapp.com/"
+                                target="_blank"> Aplicación desarrollada en React js, mongoDB y NodeJs express </a></h6>
+                        <h6><i class="fas fa-link"></i><a href="https://github.com/rigoriosh/Calendar-App"
+                                target="_blank"> GitHub </a></h6>
                     </li>
                     <hr>
                     <li>
                         <h4>Journal App <span class="badge bg-info rounded-pill">En desarrollo</span></h4>
-                        <h6><i class="fas fa-link"></i><a href="https://journal-app-rigoriosh.herokuapp.com/" target="_blank">  Aplicación desarrollada en React js, auth firebase y  NodeJs express </a></h6>
-                        <h6><i class="fas fa-link"></i><a href="https://github.com/rigoriosh/webApp-Journals" target="_blank">  GitHub </a></h6>
+                        <h6><i class="fas fa-link"></i><a href="https://journal-app-rigoriosh.herokuapp.com/"
+                                target="_blank"> Aplicación desarrollada en React js, auth firebase y NodeJs express
+                            </a></h6>
+                        <h6><i class="fas fa-link"></i><a href="https://github.com/rigoriosh/webApp-Journals"
+                                target="_blank"> GitHub </a></h6>
                     </li>
                 </ul>
-            </section>       
+            </section>
             <section id="Hobbies" class="container animate__animated animate__fadeInDownBig">
                 <h1>Hobbies</h1>
                 <ul>
-                    <li><hr></li>
-                    <li><h4>Futbol</h4></li>
-                    <li><hr></li>
-                    <li><h4>Ciclo montañismo</h4></li>
-                    <li><hr></li>
-                    <li><h4>Peliculas de cienca ficción</h4></li>
+                    <li>
+                        <hr>
+                    </li>
+                    <li>
+                        <h4>Futbol</h4>
+                    </li>
+                    <li>
+                        <hr>
+                    </li>
+                    <li>
+                        <h4>Ciclo montañismo</h4>
+                    </li>
+                    <li>
+                        <hr>
+                    </li>
+                    <li>
+                        <h4>Peliculas de cienca ficción</h4>
+                    </li>
                 </ul>
             </section>
         </article>
-    </div>   
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script> 
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+        crossorigin="anonymous"></script>
     <script src="./js/main.js"></script>
 </body>
+
 </html>
